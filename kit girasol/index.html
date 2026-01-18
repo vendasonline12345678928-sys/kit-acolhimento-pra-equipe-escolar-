@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🌻Kit Acolhimento Escolar🌻</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url("foto3.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: rgb(255, 235, 52);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #333;
+    }
+    header p {
+      color: #333;
+      font-size: 1.2rem;
+    }
+
+    .descricao {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 2rem auto;
+      background: rgba(255,255,255,0.85);
+      border-radius: 10px;
+    }
+    .descricao h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      margin-top: 2rem;
+      color: #222;
+      background: rgba(255,255,255,0.8);
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+    }
+
+    .slider {
+      position: relative;
+      max-width: 900px;
+      margin: 2rem auto;
+      overflow: hidden;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.85);
+    }
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+    .slide {
+      min-width: 100%;
+      box-sizing: border-box;
+      text-align: center;
+      padding: 1rem;
+    }
+    .slide h3 {
+      font-size: 1.8rem; /* título maior */
+      color: #222;
+      margin-bottom: 0.8rem;
+    }
+    .slide img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto;
+    }
+    .slide p {
+      margin-top: 1rem;
+      font-size: 1.3rem; /* descrição aumentada */
+      line-height: 1.6;  /* espaçamento entre linhas para melhor leitura */
+      color: #333;
+      text-align: justify; /* texto justificado para ficar mais bonito */
+      padding: 0 1rem;
+    }
+    .navigation {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+    .navigation button {
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      padding: 1rem;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    .compra {
+      text-align: center;
+      margin: 3rem 0;
+      background: rgba(255,255,255,0.85);
+      padding: 2rem;
+      border-radius: 10px;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .valor {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+    .compra button {
+      background: #fd2c0c;
+      color: rgb(242, 255, 0);
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    .compra button:hover {
+      background:#fd2c0c;
+    }
+
+    /* Setas fixas laterais maiores */
+    .seta-lateral {
+      position: fixed;
+      top: 40%;
+      font-size: 1.5rem;
+      color: #fe0606;
+      text-align: center;
+      z-index: 999;
+      animation: pisca 1s infinite;
+    }
+    .seta-lateral span, .seta-lateral div {
+      display: block;
+      font-size: 3rem;
+      color: #fe0606;
+    }
+    .seta-esquerda {
+      left: 10px;
+    }
+    .seta-direita {
+      right: 10px;
+    }
+
+    @keyframes pisca {
+      0% { opacity: 1; }
+      50% { opacity: 0.3; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kit acolhimento para equipe escolar</h1>
+    <p>Fortaleça sua equipe com recursos práticos e acolhedores</p>
+  </header>
+
+  <section class="descricao">
+    <h2>Descrição</h2>
+    <p>O Kit Acolhimento "O Girassol e seus Ensinamentos" é um conjunto de materiais inspiradores que trazem o simbolismo do girassol para o ambiente escolar. Com painéis decorativos, cartões motivacionais e conteúdos de apoio, o kit promove acolhimento, integração e momentos de reflexão em reuniões pedagógicas e encontros da equipe. Simples e prático, ele ajuda a criar um clima positivo e motivador, fortalecendo os vínculos entre professores, gestores e alunos.</p>
+  </section>
+
+  <div style="text-align:center;">
+    <h2 class="section-title">O que contém no Kit</h2>
+  </div>
+
+  <div class="slider">
+    <div class="slides" id="slides">
+      <div class="slide">
+        <h3>Painel</h3>
+        <img src="painel.jpeg" alt="Painel">
+        <p>Painel "O girassol": Painel decorativo, colorido, com frases que resumem os ensinamentos que os girassóis nos transmitem e imprescindíveis para praticarmos. Apresentado no formato PDF, pronto para impressão, sendo produzido em dimensões de 8 folhas de sulfite A4.</p>
+      </div>
+      <div class="slide">
+        <h3>Cartões</h3>
+        <img src="bombom.jpeg" alt="Cartões">
+        <p>Cartões com mensagem: Contém mensagem incentivadora e espaço para fixar bombons, balas ou doces que preferir. Cartão pronto para impressão no formato PDF, 4 unidades por folha sulfite A4.</p>
+      </div>
+      <div class="slide">
+        <h3>Material de apoio</h3>
+        <img src="material-de-apoio.jpg" alt="Material de apoio">
+        <p>Material de apoio "O girassol": Um guia prático elaborado para orientar sobre montagem do painel decorativo, além de sugestões como preparar os cartões porta-bombons. Apresenta também um belo texto base para nortear momentos de reflexões e socialização sobre as lições preciosas que os girassóis nos ensinam. Além do material de apoio, propõe dois vídeos: motivacional e canção sobre o tema, acessados com leitura de QR Code, que poderão ser utilizados e compartilhados durante reuniões e eventos especiais.</p>
+      </div>
+    </div>
+    <div class="navigation">
+      <button onclick="prevSlide()">❮</button>
+      <button onclick="nextSlide()">❯</button>
+    </div>
+  </div>
+
+  <!-- Setas laterais fixas -->
+  <div class="seta-lateral seta-esquerda" onclick="document.querySelector('.compra').scrollIntoView({behavior:'smooth'})">
+    <div>⬇</div>
+    <strong>link da compra abaixo</strong>
+  </div>
+  <div class="seta-lateral seta-direita" onclick="document.querySelector('.compra').scrollIntoView({behavior:'smooth'})">
+    <div>⬇</div>
+    <strong>link da compra abaixo</strong>
+  </div>
+
+  <section class="compra">
+    <div class="valor">Valor: R$ 12,99</div>
+    <button onclick="window.location.href='https://pay.kiwify.com.br/kBPjfQM'">Compre aqui</button>
+  </section>
+
+  <script>
+    let index = 0;
+    const slides = document.getElementById("slides");
+    const total = slides.children.length;
+
+    function showSlide(i) {
+      index = (i + total) % total;
+      slides.style.transform = `translateX(${-index * 100}%)`;
+    }
+    function nextSlide() { showSlide(index + 1); }
+    function prevSlide() { showSlide(index - 1); }
+  </script>
+</body>
+</html>
